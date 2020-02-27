@@ -1,10 +1,8 @@
 //
 //  PhotosGridController.swift
-//  FaceBook
+//  FapBook
 //
-//  Created by Benjamin Rose on 12/14/19.
-//  Copyright © 2019 Benjamin Rose. All rights reserved.
-//
+
 
 import UIKit
 import SwiftUI
