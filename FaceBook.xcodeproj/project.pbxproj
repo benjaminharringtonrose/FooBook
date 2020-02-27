@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9D55AC723A52C7100892282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D55AC623A52C7100892282 /* AppDelegate.swift */; };
+		D9D55AC923A52C7100892282 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D55AC823A52C7100892282 /* SceneDelegate.swift */; };
+		D9D55ACB23A52C7100892282 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D55ACA23A52C7100892282 /* ContentView.swift */; };
+		D9D55ACD23A52C7200892282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D55ACC23A52C7200892282 /* Assets.xcassets */; };
+		D9D55AD023A52C7200892282 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D55ACF23A52C7200892282 /* Preview Assets.xcassets */; };
+		D9D55AD323A52C7200892282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D55AD123A52C7200892282 /* LaunchScreen.storyboard */; };
+		D9D55ADB23A52CF000892282 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D55ADA23A52CF000892282 /* MainController.swift */; };
+		D9D55ADE23A5345E00892282 /* LBTATools in Frameworks */ = {isa = PBXBuildFile; productRef = D9D55ADD23A5345E00892282 /* LBTATools */; };
+		D9D55AE023A53F0A00892282 /* PhotosGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D55ADF23A53F0A00892282 /* PhotosGridController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9D55AC323A52C7100892282 /* FaceBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D55AC623A52C7100892282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9D55AC823A52C7100892282 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D9D55ACA23A52C7100892282 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9D55ACC23A52C7200892282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9D55ACF23A52C7200892282 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9D55AD223A52C7200892282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9D55AD423A52C7200892282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D55ADA23A52CF000892282 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		D9D55ADF23A53F0A00892282 /* PhotosGridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosGridController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9D55AC023A52C7100892282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D55ADE23A5345E00892282 /* LBTATools in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9D55ABA23A52C7100892282 = {
+			isa = PBXGroup;
+			children = (
+				D9D55AC523A52C7100892282 /* FaceBook */,
+				D9D55AC423A52C7100892282 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D55AC423A52C7100892282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D55AC323A52C7100892282 /* FaceBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9D55AC523A52C7100892282 /* FaceBook */ = {
+			isa = PBXGroup;
+			children = (
+				D9D55AC623A52C7100892282 /* AppDelegate.swift */,
+				D9D55AC823A52C7100892282 /* SceneDelegate.swift */,
+				D9D55ACA23A52C7100892282 /* ContentView.swift */,
+				D9D55ACC23A52C7200892282 /* Assets.xcassets */,
+				D9D55AD123A52C7200892282 /* LaunchScreen.storyboard */,
+				D9D55AD423A52C7200892282 /* Info.plist */,
+				D9D55ACE23A52C7200892282 /* Preview Content */,
+				D9D55ADA23A52CF000892282 /* MainController.swift */,
+				D9D55ADF23A53F0A00892282 /* PhotosGridController.swift */,
+			);
+			path = FaceBook;
+			sourceTree = "<group>";
+		};
+		D9D55ACE23A52C7200892282 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9D55ACF23A52C7200892282 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9D55AC223A52C7100892282 /* FaceBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D55AD723A52C7200892282 /* Build configuration list for PBXNativeTarget "FaceBook" */;
+			buildPhases = (
+				D9D55ABF23A52C7100892282 /* Sources */,
+				D9D55AC023A52C7100892282 /* Frameworks */,
+				D9D55AC123A52C7100892282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBook;
+			packageProductDependencies = (
+				D9D55ADD23A5345E00892282 /* LBTATools */,
+			);
+			productName = FaceBook;
+			productReference = D9D55AC323A52C7100892282 /* FaceBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9D55ABB23A52C7100892282 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Benjamin Rose";
+				TargetAttributes = {
+					D9D55AC223A52C7100892282 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = D9D55ABE23A52C7100892282 /* Build configuration list for PBXProject "FaceBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9D55ABA23A52C7100892282;
+			packageReferences = (
+				D9D55ADC23A5345E00892282 /* XCRemoteSwiftPackageReference "LBTATools" */,
+			);
+			productRefGroup = D9D55AC423A52C7100892282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D55AC223A52C7100892282 /* FaceBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9D55AC123A52C7100892282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D55AD323A52C7200892282 /* LaunchScreen.storyboard in Resources */,
+				D9D55AD023A52C7200892282 /* Preview Assets.xcassets in Resources */,
+				D9D55ACD23A52C7200892282 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9D55ABF23A52C7100892282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D55ADB23A52CF000892282 /* MainController.swift in Sources */,
+				D9D55AC723A52C7100892282 /* AppDelegate.swift in Sources */,
+				D9D55AC923A52C7100892282 /* SceneDelegate.swift in Sources */,
+				D9D55AE023A53F0A00892282 /* PhotosGridController.swift in Sources */,
+				D9D55ACB23A52C7100892282 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9D55AD123A52C7200892282 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D55AD223A52C7200892282 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9D55AD523A52C7200892282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9D55AD623A52C7200892282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9D55AD823A52C7200892282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FaceBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 2B9UR59BJP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FaceBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Benjaminrose.FaceBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9D55AD923A52C7200892282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FaceBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 2B9UR59BJP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FaceBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Benjaminrose.FaceBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9D55ABE23A52C7100892282 /* Build configuration list for PBXProject "FaceBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D55AD523A52C7200892282 /* Debug */,
+				D9D55AD623A52C7200892282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D55AD723A52C7200892282 /* Build configuration list for PBXNativeTarget "FaceBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D55AD823A52C7200892282 /* Debug */,
+				D9D55AD923A52C7200892282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9D55ADC23A5345E00892282 /* XCRemoteSwiftPackageReference "LBTATools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bhlvoong/LBTATools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9D55ADD23A5345E00892282 /* LBTATools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9D55ADC23A5345E00892282 /* XCRemoteSwiftPackageReference "LBTATools" */;
+			productName = LBTATools;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D9D55ABB23A52C7100892282 /* Project object */;
+}
