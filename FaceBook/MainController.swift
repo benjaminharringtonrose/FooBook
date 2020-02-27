@@ -1,10 +1,7 @@
 //
 //  MainController.swift
-//  FaceBook
-//
-//  Created by Benjamin Rose on 12/14/19.
-//  Copyright © 2019 Benjamin Rose. All rights reserved.
-//
+//  FalseBook
+
 
 import UIKit
 import SwiftUI
